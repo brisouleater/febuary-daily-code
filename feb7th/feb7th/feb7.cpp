@@ -6,9 +6,9 @@ int main() {
 	cout << "how old are you?" << endl;
 	cin >> input;
 
-	if(input== even)
+	if(input %2 ==0)
 		cout << "is your name steven?" << endl;
 	
-	else if (input == odd)
+	else
 		cout << "your name is odd" << endl;
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
