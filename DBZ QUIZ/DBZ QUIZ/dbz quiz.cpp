@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main () {
-	// set up diffrent catagories
+
 	int Goku = 0;
 	int Vegeta = 0;
 	int Chichi = 0;
@@ -58,9 +58,39 @@ int main () {
 	cout << "Do you eat alot?"
 		(A for yes, B for no)
 		cin >> input;
-	if (input=='A')
-		Goku=Goku +4
-	else if (input=='B')
-Vegeta=Vegeta +2
-Chichi=Chichi +2
-Bulma=Bulma +2
+	if (input == 'A')
+		Goku = Goku + 4
+	else if (input == 'B')
+		Vegeta = Vegeta + 2
+		Chichi = Chichi + 2
+		Bulma = Bulma + 2
+		Krillin = Krillin + 2
+		cout << "invalid input" << endl;
+	
+	//fifth question 
+	cout"can you fly?"
+		(A for yes B for no)
+		cin >> input;
+	if (input == 'A')
+		Goku = Goku + 2
+		Vegeta = Vegeta + 2
+		Krillin = Krillin + 2
+	else if (input == 'B')
+		Chichi = Chichi + 3
+		Bulma = Bulma + 3
+		cout << "invalid input" << endl;
+
+	//sixth question
+	cout << "are you tall?"
+		(A for yes N for no)
+		cin >> input;
+	if (input == 'A')
+		Goku = Goku + 3
+		Vegeta = Vegeta + 3
+	else if (input == 'B')
+		Chichi = Chichi + 1
+		Bulma = Bulma + 1
+		Krillin = Krillin + 1
+		cout << "invalid input" >> endl;
+
+	//seventh question
