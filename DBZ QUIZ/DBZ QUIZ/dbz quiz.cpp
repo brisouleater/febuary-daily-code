@@ -13,8 +13,8 @@ int main () {
 	<< endl;
 	
 	//First question
-	cout << "What is your favorite color?"
-		(B for black, G for green, P for pink, BL for blue, R for red)
+	cout << "What is your favorite color?" << endl;
+	(B for black, G for green, P for pink, BL for blue, R for red)
 		cin >> input;
 	if (input == 'B')
 		Goku = Goku + 1;
@@ -29,7 +29,7 @@ int main () {
 	cout << "invalid input" << endl;
 
 //Second question 
-	cout << "what race are you?"
+	cout << "what race are you?" << endl;
 		(A for saiyan, B for human)
 		cin >> input;
 	if (input == 'A')
@@ -42,9 +42,9 @@ int main () {
 		cout << "invalid input" << endl;
 		
 	//Third question
-	cout << "What gender are you?"
+	cout << "What gender are you?" << endl;
 		cin >> input;
-	(F for female, M for male)
+	('F' for female, M for male)
 		if (input == 'F')
 			Chichi = Chichi + 2
 			Bulma = Bulma + 2
@@ -55,7 +55,7 @@ int main () {
 			cout << "invalid input" << endl;
 
 	//Forth question
-	cout << "Do you eat alot?"
+	cout << "Do you eat alot?" << endl;
 		(A for yes, B for no)
 		cin >> input;
 	if (input == 'A')
@@ -68,7 +68,7 @@ int main () {
 		cout << "invalid input" << endl;
 	
 	//fifth question 
-	cout"can you fly?"
+	cout"can you fly?" << endl;
 		(A for yes B for no)
 		cin >> input;
 	if (input == 'A')
@@ -81,7 +81,7 @@ int main () {
 		cout << "invalid input" << endl;
 
 	//sixth question
-	cout << "are you tall?"
+	cout << "are you tall?" << endl;
 		(A for yes N for no)
 		cin >> input;
 	if (input == 'A')
@@ -94,3 +94,17 @@ int main () {
 		cout << "invalid input" >> endl;
 
 	//seventh question
+	cout << "are boolons fun?"<< endl;
+	(C for yes D for no)
+		cin >> input;
+	if (input == 'C')
+		Goku = Goku + 4
+	else if (input == 'D')
+		Vegeta = Vegeta + 1
+		Krillin = Krillin + 1
+		Chichi = Chichi + 1
+		Bulma = Bulma + 1
+		cout << "invalid input" >> endl;
+	
+	//eighth question
+	cout << "do you like to fight?"<< endl;
